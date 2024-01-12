@@ -1,0 +1,70 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #3498db;
+}
+
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 600px; /* Set a maximum width for the container */
+    padding: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+}
+
+.digit {
+    font-size: 2em;
+    color: white;
+    
+}
+.digit:hover{
+    color: red;
+}
+
+.btn {
+    background-color: #264052;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: rgb(58, 45, 45)
+}
+
+.scoreBox {
+    font-size: 2em;
+    color: green;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: none;
+}
+
+/* Media Query for Responsive Design */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 20px auto;
+    }
+
+    
+
+    /* .scoreBox {
+        font-size: 1.5em;
+        color: green;
+        font-family: monospace;
+    } */
+}
+/* .btn{
+    background: blue;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+} */
